@@ -1,0 +1,49 @@
+#haro{
+  display: flex;
+  justify-content: center;
+  
+}
+#hero{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  
+}
+#why{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color:black;
+  font-size: 16px;
+  font-weight: bold;
+  align-content: end;
+}
+h3 ,p{
+  grid-column: 1 / -1;
+}
+@media (max-width:800px) {
+#hero{
+  width: 100%;
+  height: auto;
+}
+#why{
+  grid-template:1fr 1fr 1fr / 1fr ;
+  gap: 10px;
+}
+}
+body{
+  background-color: gold;
+  
+}
+#log{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+#Tflex{
+  display: inline-flex;
+  gap: 5px;
+  justify-content: space-evenly
+}
+

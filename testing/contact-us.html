@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      color: #333333;
+      background-color: #f0ebe5;
+      text-align: center;
+    }
+    #comment{
+      cursor: pointer;
+      transition: all 0.15s;
+      border-radius: 10px;
+    }
+    #comment:hover{
+      box-shadow: -10px 5px 10px rgb(94, 92, 92);
+      margin: 10px;
+      padding: 10px;
+    }
+    #submit{
+      background-color: tomato;
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+      color: white;
+      transition: background-color 0.15s;
+    }
+    #submit:hover{
+      background-color: rgb(135, 61, 48);
+    }
+    #tobflex{
+      display: inline-flex;
+      width: 80%;
+      height: 300px;
+      align-items: end;
+      justify-content: end;
+    }
+    #but-on{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .bu{
+      border: none;
+      padding: 10px;
+      background-color: olive;
+      border-radius: 5px;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <h2>
+      Contact-Us
+    </h2>
+    <p>
+      have a question or feed-back?Reach out anytime.
+    </p>
+  </div>
+  <form action="">
+    <label for="">
+      Name: 
+    </label><br>
+    <input type="text" placeholder="john doe"><br><br>
+    <label for="">
+      Email: 
+    </label><br>
+    <input type="email" name="email" id="email" placeholder="john@doe.com"><br><br>
+    <textarea name="" id="comment" cols="40" rows="10" placeholder="write your comment"></textarea>
+    <input type="submit" value="Submit" id="submit">
+  </form>
+  <div id="but-on">
+    <button id="home" class="bu" onclick="location.href='home.html'">
+      Go Home
+    </button>
+    <button id="about" class="bu" onclick="location.href='aboutus.html'">
+      About - Us
+    </button>
+  </div>
+  <div id="tobflex">
+    <a href="http://https://www.linkedin.com/in/samuel-temitope-582954364" id="linkedin">
+      <img src="LinkedIn_icon.svg.png" alt="" width="75px" height="75px">
+
+    </a>
+    <a href="" id="whatsapp">
+      <img src="WhatsApp.svg.webp" alt="" width="75px"height="75px">
+    </a>  
+  </div>
+
+</body>
+</html>

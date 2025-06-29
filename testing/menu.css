@@ -1,0 +1,132 @@
+.morning{
+  width: 810px;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+.break{
+  width: 410px;
+  
+}
+img{
+  
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+#food{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #f5e6da;
+  
+}
+.sec2{
+  display: flex;
+  justify-content: center;
+}
+.fud{
+  width: 100px;
+  height:50px;
+  background-color: #f9f9f9;
+
+}
+#buton{
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+button{
+  
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+body{
+  background-color:#fdf6f0;
+  
+}
+#breakfast{
+  background-color:#f4a261;
+}
+#breakfast:hover{
+  margin: 10px;
+  padding: 5px;
+}
+#lunch{
+  background-color: #2a9d8f;
+}
+#lunch:hover{
+  margin: 10px;
+  padding: 5px;
+}
+#dinner{
+  background-color: #b25d5d;
+}
+#dinner:hover{
+  margin: 10px;
+  padding: 5px;
+}
+#fastfood{
+  background-color: #e63946;
+}
+#fastfood:hover{
+  margin: 10px;
+  padding: 5px;
+}
+#confectionary{
+  background-color: #d291bc;
+}
+#confectionary:hover{
+  margin: 10px;
+  padding: 5px;
+}
+#one{
+  background-color: #f4a261 ;
+}
+#two{
+  background-color: #2a9d8f;
+}
+#three{
+  background-color: #b25d5d;
+}
+#four{
+  background-color: #e63946;
+}
+#five{
+  background-color: #d291bc;
+}
+.buton{
+      border: none;
+      padding: 10px;
+
+ }
+ #homme{
+  text-align: center;
+ }
+
+@media(max-width:900px){
+  .morning{
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:10px;
+
+  }
+  .break{
+    width: 245px;
+  }
+  img{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+  }
+  .fud{
+    background-color: chartreuse;
+  }
+}
